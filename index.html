@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto Étudiant</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/864b7cfa1e.js crossorigin="anonymous" link:></script> 
+    <link rel="shortcut icon" href="./image/resto-Etudiant.png" type="image">
+  </head>
+  
+  <body>
+
+
+    <header>
+      <a href="#" class="logo">Resto Etudiant<span>.</span></a>
+      <nav class="navigation">
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#menu">Menu</a>
+        <a href="#commande">Commande</a>
+        <a href="#avis">Avis</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="bouton">Réserver</a>
+      <div class="bascule-menu" id="menu-bascule">
+        <i class="bx bx-menu"></i>
+      </div>
+    </header>
+
+
+
+ 
+    <section id="accueil" class="page">
+      <div class="texte-page">
+        <h1>Bienvenue cher <span>Etudiant(e)</span></h1>
+        <p>Un voyage culinaire unique avec des saveurs inoubliables.</p>
+        <a href="#menu" class="bouton-secondaire">Découvrir le Menu</a>
+      </div>
+    </section>
+
+    <section id="apropos" class="apropos">
+      <div class="texte-apropos">
+        <h2> Bienvenue au Restaurant Etudiant</h2>
+        <p>
+          Resto Etudiant vous propose une cuisine variée, équilibrée et savoureuse, conçue pour satisfaire tous les goûts. Profitez d'une ambiance idéale pour se retrouver entre amis et partager de bons moments.
+        </p>
+        <h2 class="horaire">Horaire <i class="fa-solid fa-clock"></i> </h2>
+        <p class="jours">Lundi - Vendredi: 08h:30 - 00h:30</p>
+        <p class="jours">Samedi - Dimanche: 9h:30 - 00h:00</p>
+      </div>
+
+      <div class="image-apropos">
+        <img
+          src="./image/METZ RESTAURANT UNIVERSITAIRE - Agence d'architecture Mil Lieux (2).jpg"
+          alt="Notre Restaurant"
+          loading="lazy" />
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <h2>Les plats d’Aujourd’hui</h2>
+
+      <h3 class="repas">Petit Déjeuner</h3>
+      <div class="elements-menu">
+        <div class="carte">
+          <img src="./image/beignet.jpg" alt="Beignet" loading="lazy" />
+          <h3>Beignet</h3>
+          <p>Beignet doré, léger et moelleux, saupoudré de sucre.</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,9</strong>
+          </div>
+          <span>100 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+        <div class="carte">
+          <img
+            src="./image/Le niébé aux patates douces et à l’huile de palme….jpg"
+            alt="Pain Niébè"
+            loading="lazy"
+          />
+          <h3>Pain Niébè</h3>
+          <p>Pain nutritif à base de farine de niébè, riche en protéines.</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,3</strong>
+          </div>
+          <span>200 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+        <div class="carte">
+          <img
+            src="./image/Spaghetii.jpg"
+            alt="Pain Spaghetti"
+            loading="lazy"
+          />
+          <h3>Pain Spaghetti</h3>
+          <p>Pain garni de spaghetti al dente et d’une sauce savoureuse.</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,6</strong>
+          </div>
+          <span>300 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+        <div class="carte">
+          <img src="./image/sandwich.jpg" alt="Sandwich" loading="lazy" />
+          <h3>Sandwich</h3>
+          <p>Sandwich garni de légumes frais, viande et fromage fondant.</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,7</strong>
+          </div>
+          <span>700 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+      </div>
+
+      <h3 class="repas">Repas</h3>
+      <div class="elements-menu">
+        <div class="carte">
+          <img
+            src="./image/Thiebou Dieune Penda Mbaye, la reine du repas de….jpg"
+            alt="Thiéboudiène"
+            loading="lazy"
+          />
+          <h3>Thiéboudiène</h3>
+          <p>Plat traditionnel sénégalais à base de riz, poisson et légumes.</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,7</strong>
+          </div>
+          <span>800 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+        <div class="carte">
+          <img
+            src="./image/The Poulet Yassa is one of Senegal’s most beloved….jpg"
+            alt="Yassa"
+            loading="lazy"
+          />
+          <h3>Yassa</h3>
+          <p>
+            Poulet mariné au citron et aux oignons caramélisés, servi avec du
+            riz.
+          </p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,4</strong>
+          </div>
+          <span>600 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+        <div class="carte">
+          <img src="./image/mafé.jpg" alt="Mafé" loading="lazy" />
+          <h3>Mafé</h3>
+          <p>
+            Poulet ou bœuf mijoté dans une sauce onctueuse à base de pâte
+            d’arachide, accompagné de riz parfumé.
+          </p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,9</strong>
+          </div>
+          <span>550 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+        <div class="carte">
+          <img
+            src="./image/makhal-saloum.jpg"
+            alt="makhal-saloum"
+            loading="lazy"
+          />
+          <h3>makhal-saloum</h3>
+          <p>
+            Riz parfumé préparé avec des haricots niébé, du poisson séché et des
+            épices locales.
+          </p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,9</strong>
+          </div>
+          <span>600 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+      </div>
+
+      <h3 class="repas">Dîner</h3>
+      <div class="elements-menu">
+        <div class="carte">
+          <img
+            src="./image/Macarona Bil Lahme (One Pot Pasta).jpg"
+            alt="Macronie"
+            loading="lazy"
+          />
+          <h3>Macronie</h3>
+          <p>
+            Des pâtes fondantes, nappées d’une sauce tomate onctueuse et
+            légèrement épicée, agrémentées d’oignons et d’épices locales.
+          </p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,5</strong>
+          </div>
+          <span>600 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+        <div class="carte">
+          <img
+            src="./image/Fatayer sabanekh - DUMPLINGS AND MORE.jpg"
+            alt="Fataya"
+            loading="lazy"
+          />
+          <h3>Fataya</h3>
+          <p>
+            De savoureux beignets dorés et croustillants, garnis d’une farce
+            généreuse de viande hachée épicée.
+          </p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,8</strong>
+          </div>
+          <span>500 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+        <div class="carte">
+          <img
+            src="./image/thiéré sime bou gnou gnoulouk avec sauce tomate 🍅….jpg"
+            alt="Thiéré"
+            loading="lazy"
+          />
+          <h3>Thiéré</h3>
+          <p>Couscous sénégalais à base de mil, accompagné de sauce.</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,9</strong>
+          </div>
+          <span>900 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+        <div class="carte">
+          <img src="./image/thiakry.jpg" alt="Thiakry" loading="lazy" />
+          <h3>Thiakry</h3>
+          <p>Dessert à base de mil et de yaourt sucré.</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,7</strong>
+          </div>
+          <span>300 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+      </div>
+
+      <h3 class="repas">Boissons</h3>
+      <div class="elements-menu">
+        <div class="carte">
+          <img
+            src="./image/L'une pétille, l'autre non_ Mais quand il s'agit….jpg"
+            alt="Eau Minérale"
+            loading="lazy"
+          />
+          <h3>Eau Minérale</h3>
+          <p>
+            Une eau pure et rafraîchissante, idéale pour accompagner vos repas.
+          </p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,6</strong>
+          </div>
+          <span>100 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+
+        <div class="carte">
+          <img
+            src="./image/8a20817e-49cc-4e75-9426-7085061423ee.jpg"
+            alt="Jus de Bissap"
+            loading="lazy"
+          />
+          <h3>Jus de Bissap</h3>
+          <p>
+            Boisson naturelle à base de fleurs d’hibiscus, sucrée et riche en
+            saveurs.
+          </p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,9</strong>
+          </div>
+          <span>200 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+
+        <div class="carte">
+          <img
+            src="./image/Bouye juice from Le Point E in Dakar, Senegal_.jpg"
+            alt="Jus de Bouye"
+            loading="lazy"
+          />
+          <h3>Jus de Bouye</h3>
+          <p>
+            Délicieux jus du fruit de baobab, onctueux et riche en nutriments.
+          </p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,5</strong>
+          </div>
+          <span>200 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+
+        <div class="carte">
+          <img
+            src="./image/Préparez un délicieux jus de gingembre naturel aux….jpg"
+            alt="Jus de Gingembre"
+            loading="lazy"
+          />
+          <h3>Jus de Gingembre</h3>
+          <p>
+            Boisson énergisante au gingembre, au goût piquant et rafraîchissant.
+          </p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><strong>4,8</strong>
+          </div>
+          <span>300 Fcfa</span>
+          <button class="bouton-payer">Commander</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="commande" class="commande">
+      <h2>Commande & Livraison</h2>
+      <p class="texte-intro">Passez votre commande en quelques clics et faites-vous livrer directement chez vous ou à l'université.</p>
+      <form>
+        <input type="text" placeholder="Nom complet" required />
+        <input type="tel" placeholder="+221 70 000 00 00" required />
+        <input type="text" placeholder="Adresse de livraison" required />
+        <input type="text" placeholder="Plat souhaité" required />
+        <textarea rows="3" placeholder="Instructions supplémentaires..."></textarea>
+        <button type="submit" class="bouton-secondaire">Commander</button>
+      </form>
+    </section>
+
+    <section id="avis" class="avis">
+      <h2>La satisfaction de nos clients est notre plus belle récompense.</h2>
+      <div class="avis-container">
+        <div class="avis-carte">
+          <img src="./image/img1.png" alt="Client Awa" />
+          <h3>Binta Diallo</h3>
+          <p>"Super service, plats délicieux et livraison rapide !"</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+        <div class="avis-carte">
+          <img src="./image/ilg-2.png" alt="Ctlient Moussa" />
+          <h3>Alain Sambou</h3>
+          <p>"Ambiance conviviale, parfait pour les étudiants. Je recommande."</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="avis-carte">
+          <img src="./image/img3.png" alt="Client Fatou" />
+          <h3>Rokhaya Ndiaye</h3>
+          <p>"Les Plats sont juste incroyables, comme à la maison."</p>
+          <div class="etoiles">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Réservez une Table</h2>
+      <p class="tables-restantes">Tables restantes aujourd'hui : <strong>12</strong></p>
+      <form>
+        <input type="text" placeholder="Prénom et Nom" minlength="3" required />
+         <input type="tel"  placeholder="+221 70 000 00 00" pattern="^(\+221|0)\d{9}$" required />
+        <input type="date" min="2025-09-24" required />
+        <input type="time" min="08:30" max="23:59" />
+        <input type="number" min="0" placeholder="Nombre de personnes" required />
+        <textarea placeholder="Message (optionnel)" minlength="3"></textarea>
+        <button type="submit" class="bouton-secondaire">Réserver</button>
+      </form>
+    </section>
+
+    <footer>
+      
+      <p> &copy; 2025 Resto Étudiant. Réalisé par Le Groupe 8 Du VCN 2025 Niveau Débutant </p>
+
+      <div class="reseaux">
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+       
+      </div>
+      
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
